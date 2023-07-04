@@ -7,10 +7,10 @@ const connection = async()=>{
             useUnifiedTopology:true,
             useNewUrlParser:true,
         })
-        console.log(`Database is connected on ${connection.host} - ${connection.port}`)
+        console.log(`Base de datos conectada en ${connection.host} - ${connection.port}`)
     } catch (error) {
         console.log(error);
     }
 }
-//exporta la cadena de conexion
+//importa la cadena de conexion
 export default  connection
